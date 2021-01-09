@@ -170,7 +170,7 @@ nav{
 .bigHeading{
     font-family: 'Roboto', sans-serif;
     color: #ffffff;
-    font-size: 42px;
+    font-size: 26px;
     font-weight: bold;
     letter-spacing: 1px;  
     text-transform: uppercase;
@@ -352,11 +352,6 @@ nav{
 }
 
 
-
-
-
-
-
 /* Extra small devices (phones, 300px and down)  start*/
 @media only screen and (max-width: 300px) {
  
@@ -379,6 +374,27 @@ nav{
     .carousel-inner img{
         height: auto;
     }
+    .jumbotron-header1{
+        display: none;
+    }
+    .borderRight{
+        border: none !important;
+    }
+    .bigHeadingSmall{
+        font-size: 16px !important;
+    }
+    .listItem{
+        font-size: 16px !important;
+    }
+    .bigHeading{
+        font-size: 17px !important; 
+    }
+    .thumbImg{
+        height: 300px !important; 
+    }
+    .extraPadding{
+        padding: 30px;
+    }
 }
 
 
@@ -389,12 +405,17 @@ nav{
      bottom: 64px;
     }
     .bigHeading{
-        font-size: 32px;
+        font-size: 26px;
     }
     .smallHeading{
        font-size: 14px;  
     }
-    
+    .bigHeadingSmall{
+      font-size: 17px !important; 
+    }
+    .secondHeading{
+      font-size: 28px !important;  
+    }    
 }
     
 
@@ -403,6 +424,25 @@ nav{
     .navLink{
       padding: 0px 7px;     
     } 
+    .bigHeadingSmall{
+       margin-bottom: 21px;
+    }
+    .borderRight{
+        border-right: none;
+        margin: 10px 0px;
+    }
+    .img1{
+        height: auto;
+    }
+    .thumbImg{
+        height: 605px;
+    }
+    .sponseImg{
+       height: 100% !important;  
+    }
+    .mobileView{
+       margin-top: -50px;  
+    }
 }
 
 
@@ -419,9 +459,14 @@ nav{
         font-size: 38px;
     }
     .smallHeading{
-       font-size: 15px;  
+       font-size: 13px;  
     }
-    
+    .bigHeadingSmall{
+      font-size: 17px !important; 
+    }
+    .secondHeading{
+      font-size: 30px !important;  
+    }  
 }
 
 
@@ -440,8 +485,8 @@ nav{
     .smallHeading{
        font-size: 14px !important;  
     }
- 
-   
-        
+  .bigHeadingSmall{
+     font-size: 21px !important; 
+   }      
 }
 
